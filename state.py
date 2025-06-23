@@ -23,4 +23,5 @@ class State(MessagesState):
     plan: Plan
     observations: List = []
     final_report: str =  ""
+    task_type: str = ""  # 新增：任务类型字段
     
